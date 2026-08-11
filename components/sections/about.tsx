@@ -85,7 +85,7 @@ export function About() {
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 * index }}
               variants={fadeUp}
-              className="rounded-3xl border border-border bg-card p-8 transition-colors hover:bg-accent/40"
+              className="rounded-3xl border border-border bg-card p-8 transition-colors hover:bg-primary/10"
             >
               <div className="flex size-11 items-center justify-center rounded-2xl bg-primary/10 text-primary">
                 <pillar.icon className="size-5" />
