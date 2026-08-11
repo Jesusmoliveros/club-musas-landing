@@ -36,7 +36,7 @@ export function Benefits() {
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.7, ease: "easeOut" }}
           variants={fadeUp}
-          className="inline-flex items-center gap-2 rounded-full bg-accent px-4 py-1.5 text-sm font-medium text-accent-foreground"
+          className="inline-flex items-center gap-2 rounded-full bg-primary px-4 py-1.5 text-sm font-medium text-primary-foreground"
         >
           <Sparkles className="size-4" />
           ¿Qué incluye cada edición?
