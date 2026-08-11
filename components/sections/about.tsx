@@ -7,17 +7,17 @@ const pillars = [
   {
     icon: Leaf,
     label: "Qué es",
-    text: "Aquí explicaremos qué es el club y la experiencia que ofrece.",
+    text: "Cada mes exploramos una misma chispa —una pregunta, una idea o un tema— a través de reflexiones, escritura intuitiva, recomendaciones y conversaciones con una comunidad que también disfruta aprender, crear y observar con más atención.",
   },
   {
     icon: Users,
     label: "Para quién",
-    text: "Aquí explicaremos a quién está dirigido el club.",
+    text: "Para ti si disfrutas aprender, hacer preguntas y encontrar inspiración en libros, conversaciones, arte, naturaleza y experiencias cotidianas. No necesitas ser artista ni dedicarte a una profesión creativa, solo tener curiosidad.",
   },
   {
     icon: Compass,
-    label: "Propósito",
-    text: "Aquí explicaremos cuál es su propósito y hacia dónde va.",
+    label: "Intención",
+    text: "Crear un espacio al que puedas regresar cuando necesites recordar qué te inspira, qué quieres crear y cómo quieres vivir.",
   },
 ];
 
@@ -59,7 +59,7 @@ export function About() {
           variants={fadeUp}
           className="mt-6 max-w-2xl text-balance font-heading text-4xl font-medium tracking-tight md:text-5xl"
         >
-          Un espacio pensado para tu bienestar
+          El Club de Inspiración
         </motion.h2>
 
         <motion.p
@@ -70,8 +70,10 @@ export function About() {
           variants={fadeUp}
           className="mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground"
         >
-          Aquí explicaremos qué es el club, a quién está dirigido y cuál es su
-          propósito.
+          Nace del deseo de cultivar una mirada más curiosa hacia la vida. Es
+          un espacio digital para acercarnos al arte, las ideas, las
+          conversaciones y las experiencias que expanden nuestra forma de ver
+          el mundo.
         </motion.p>
 
         <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

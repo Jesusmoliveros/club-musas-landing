@@ -10,7 +10,8 @@ import { buttonVariants } from "@/components/ui/button";
 const links = [
   { href: "#inicio", label: "Inicio" },
   { href: "#club", label: "El club" },
-  { href: "#cursos", label: "Cursos" },
+  { href: "#membresia", label: "Precio" },
+  { href: "#faq", label: "Preguntas" },
   { href: "#contacto", label: "Contacto" },
 ];
 
