@@ -35,7 +35,7 @@ export function About() {
       />
       <div
         aria-hidden
-        className="pointer-events-none absolute -right-24 bottom-0 size-96 rounded-full bg-accent/40 blur-3xl"
+        className="pointer-events-none absolute -right-24 bottom-0 size-96 rounded-full bg-primary/10 blur-3xl"
       />
 
       <div className="relative mx-auto max-w-6xl">

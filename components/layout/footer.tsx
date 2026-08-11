@@ -1,19 +1,20 @@
 import Link from "next/link";
-import { AtSign, Leaf, Mail, MessageCircle } from "lucide-react";
+import { Leaf } from "lucide-react";
+import { FaEnvelope, FaInstagram, FaWhatsapp } from "react-icons/fa6";
 
 const socials = [
   {
-    icon: AtSign,
+    icon: FaInstagram,
     label: "Instagram",
     href: "https://www.instagram.com/musas__________?igsh=bDRhaXNvMHM1Znht&utm_source=qr",
   },
   {
-    icon: Mail,
+    icon: FaEnvelope,
     label: "Correo",
     href: "mailto:joss.musas@gmail.com",
   },
   {
-    icon: MessageCircle,
+    icon: FaWhatsapp,
     label: "WhatsApp",
     href: "https://wa.me/522224460178",
   },
